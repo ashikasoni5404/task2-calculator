@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: 'Poppins',sans-serif;
+    
+
+}
+.main{
+
+    height:100vh;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-vector-school-bag-calculator-cyan-cartoon-banner-image_166801.jpg);
+    display:flex;
+    background-repeat: no-repeat;
+    background-size: auto;
+    justify-content:center;
+    background-size: 100% 100%;
+    align-items: center;
+}
+
+.calculator{
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.calculator form input{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255,0.1),5px 5px 15px rgba(0, 0, 0,0.3) ;
+    color: var(--secondary-color);
+    background: transparent;
+    outline: 0;
+    border: 0;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 10px;
+    margin: 8px;
+    
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    border-radius: 0;
+    color: var(--secondary-color);
+}
+ ::placeholder{
+    color: var(--secondary-color);
+}
+form input.sign{
+    color: blue;
+}
+form input.sign:hover{
+    transform: scale(1.1);
+    background-color: #ddd;
+
+}
+form input.change{
+    background: blue;
+    color: white;
+}
+:root{
+    --primary-color: rgb(255, 254, 254);
+    --secondary-color: #212121;
+    
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff   
+
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    text-align: right;  
+}
